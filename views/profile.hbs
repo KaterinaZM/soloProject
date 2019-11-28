@@ -1,0 +1,30 @@
+<div id='registrationPage'>
+  <h1>Hi</h1>
+  <h3>Персональная тренировка</h3>
+  <form id='calendarForm'>
+
+    <label class="label">Выберите услугу</label>
+    <select id='training' class="select is-medium">
+      <option value="Персональная тренировка">Персональная тренировка</option>
+      <option value="Аренда">Аренда</option>
+    </select>
+    <label class="label">Выберите дату:</label>
+      <input id='calendar' type="date" name="calendar">
+      <label class="label">Выберите время начала занятия:</label>
+      <select id='startTime' class="select is-medium">
+        <option value="9:00:00">9:00</option>
+        <option value="10:00:00">10:00</option>
+        <option value="11:00:00">11:00</option>
+        <option value="12:00:00">12:00</option>
+      </select>
+      <label class="label">Выберите время окончания занятия:</label>
+      <select id='endTime' class="select is-medium">
+        <option value="9:00:00">9:00</option>
+        <option value="10:00:00">10:00</option>
+        <option value="11:00:00">11:00</option>
+        <option value="12:00:00">12:00</option>
+      </select><br>
+      <button id='calendarFormButton' type="button" class="button is-dark">Записаться</button>
+  </form>
+  <script src="/js/calendar.js"></script>
+</div>
